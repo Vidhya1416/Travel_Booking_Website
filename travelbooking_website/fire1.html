@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fire2.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+  <h1 class="he1">Vidhyu's  Escapades</h1>
+  <div class="d1">
+    <div class="d2">
+
+        <img  class="im1" src="C:\Users\VIDHYA SHREE\Desktop\hcbjs\proxy-image (1).jpeg">
+
+      <img class="im1" src="C:\Users\VIDHYA SHREE\Desktop\hcbjs\proxy-image2.jpeg"alt="">
+      <img  class="im1" src="C:\Users\VIDHYA SHREE\Desktop\hcbjs\proxy-image3.jpeg" alt="">
+      <img  class="im1" src="C:\Users\VIDHYA SHREE\Desktop\hcbjs\proxy-image4.jpeg" alt="">
+      <img  class="im1" src="C:\Users\VIDHYA SHREE\Desktop\hcbjs\proxy-image5.jpeg" alt="">
+      
+      <img class="im1" src="C:\Users\VIDHYA SHREE\Desktop\hcbjs\proxy-image6.jpeg">
+     
+    </div>
+    
+    </div>
+    <div>
+      <button class="b1">Paris</button>
+      <button class="b2">New York City</button>
+      <button class="b3">Tokyo</button>
+      <button class="b4">Rio de Janeiro</button>
+      <button class="b5">Sydney</button>
+      <button class="b6">Bangkok</button>
+    </div>
+    <div class="d3">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="https://www.sanfoundry.com/artificial-intelligence-questions-answers/">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="https://www.w3schools.com/sql/sql_syntax.asp">1</a></li>
+        <li class="page-item"><a class="page-link" href="https://www.examsegg.com/artificial-intelligence-quiz.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="https://www.proprofs.com/quiz-school/topic/artificial-intelligence">3</a></li>
+        <li class="page-item"><a class="page-link" href="https://onlineexammaker.com/kb/30-artificial-intelligence-quiz-questions-and-answers/">Next</a></li>
+      </ul>
+
+    </div>
+    <script>
+function paginate(items, currentPage, perPage) {
+ 
+  const start = (currentPage - 1) * perPage;
+  const end = start + perPage;
+
+
+  return items.slice(start, end);
+}
+
+
+const items = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const currentPage = 2;
+const perPage = 3;
+
+const paginatedItems = paginate(items, currentPage, perPage);
+console.log(paginatedItems); 
+
+
+
+    </script>
+</html>
